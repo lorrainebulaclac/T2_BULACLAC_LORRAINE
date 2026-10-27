@@ -1,0 +1,14 @@
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\bin\Debug\net9.0\ATMSimulation-Bulaclac.exe
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\bin\Debug\net9.0\ATMSimulation-Bulaclac.deps.json
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\bin\Debug\net9.0\ATMSimulation-Bulaclac.runtimeconfig.json
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\bin\Debug\net9.0\ATMSimulation-Bulaclac.dll
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\bin\Debug\net9.0\ATMSimulation-Bulaclac.pdb
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\obj\Debug\net9.0\ATMSimulation-Bulaclac.GeneratedMSBuildEditorConfig.editorconfig
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\obj\Debug\net9.0\ATMSimulation-Bulaclac.AssemblyInfoInputs.cache
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\obj\Debug\net9.0\ATMSimulation-Bulaclac.AssemblyInfo.cs
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\obj\Debug\net9.0\ATMSimulation-Bulaclac.csproj.CoreCompileInputs.cache
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\obj\Debug\net9.0\ATMSimulation-Bulaclac.dll
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\obj\Debug\net9.0\refint\ATMSimulation-Bulaclac.dll
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\obj\Debug\net9.0\ATMSimulation-Bulaclac.pdb
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\obj\Debug\net9.0\ATMSimulation-Bulaclac.genruntimeconfig.cache
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\ATMSimulation-Bulaclac\obj\Debug\net9.0\ref\ATMSimulation-Bulaclac.dll

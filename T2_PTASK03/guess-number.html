@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+</head>
+<body>
+    <h1>Guess the secret number!</h1>
+
+    <div>
+        <input type="number" id="number-input">
+        <button id="guess-btn" onclick="submit()">Submit Guess</button>
+        <button onclick="start()">Start Over</button>
+    </div>
+
+
+    <p id="message">Your guess will appear here..</p>
+    <p>Guesses: <span id="guess-result">0</span>/3</p>
+    
+    <script>
+        const message = document.getElementById("message");
+        const guessBtn = document.getElementById("guess-btn");
+
+
+        const maxGuesses = 3;
+        let secretNumber;
+        let guessCount;
+
+        function start(){
+            secretNumber = Math.floor(Math.random() * 100) + 1;
+            guessCount = 0;
+            guessBtn.disabled = false;
+            document.getElementById("message").textContent = "Your guess will appear here..";
+            document.getElementById("guess-result").textContent = "0";
+            document.getElementById("number-input").value = "";
+        }
+
+        function submit(){
+        const numberInput = Number(document.getElementById('number-input').value);
+
+        if (!numberInput){
+            document.getElementById("message").textContent =
+            "Please enter a number";
+            return;
+        }
+        
+        guessCount++;
+        
+        document.getElementById("guess-result").textContent = guessCount;
+        console.log("Guess Count: " + guessCount);
+        if (guessCount >= maxGuesses) {
+            message.textContent = "You have exceeded the max tries. Please start over!"
+            guessBtn.disabled = true;
+            return;
+        }
+
+        if (numberInput === secretNumber){
+            message.textContent =
+            "Congratulations! You guessed it";
+            guessBtn.disabled = true;
+        } else if (numberInput  < secretNumber){
+            message.textContent =
+            "Too low! Try again";
+        } else {
+            message.textContent =
+            "Too high! Try again";
+        }
+
+        }
+
+
+        start();
+    </script>
+
+</body>
+</html>

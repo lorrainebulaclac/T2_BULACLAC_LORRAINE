@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Variables, Operators, and Data Types</title>
+
+    <style>
+        .bold{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Activity 1: The String vs. Number</h1>
+    <p>Enter two numbers to see how JavaScript handles the "+" operation.</p>
+    <div>
+        <input type="text" id="firstInput"> 
+        <span>+</span>
+        <input type="text" id="secondInput">
+        <button id="actionBtn">Combine</button>
+    </div>
+
+    <div>
+        <p class="bold">Results:</p>
+        <p>String: <span id="stringResult" class="bold"></span> (Type:String)</p>
+        <p>Numbers: <span id="numbersResult" class="bold"></span> (Type: Number)</p>
+    </div>
+
+    <script>
+        const firstInput = document.querySelector("#firstInput");
+        const secondInput = document.querySelector("#secondInput");
+        const actionBtn = document.querySelector("#actionBtn");
+
+        const stringResult = document.querySelector("#stringResult");
+        const numbersResult = document.querySelector("#numbersResult");
+
+        function action(){
+            const first = firstInput.value;
+            const second = secondInput.value;
+
+            const string = first + second;
+            const number = Number(first) + Number(second);
+
+            stringResult.textContent = string;
+            numbersResult.textContent = number;
+        }
+        
+        actionBtn.addEventListener("click", function(){
+            action();
+        })
+    </script>
+</body>
+</html>

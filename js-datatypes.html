@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Variables, Operators, and Data Types</title>
+</head>
+<body>
+    <h1 id="WelcomeMessage">JS Variables, Operators, and Data Types</h1>
+
+    <section>
+        <p>Player: <span id="playerName"></span></p>
+        <p>Score: <span id="playerScore"></span></p>
+        <button id="actionBtn">Add 2 points</button>
+    </section>
+
+    <script>
+        //Data Types
+        const PlayerName = "Lorraine" //String
+        let PlayerScore = 10; //Integer
+        let WelcomeMessage = "Welcome back, " + PlayerName + "!";
+
+        document.getElementById("WelcomeMessage").textContent = WelcomeMessage;
+        document.getElementById("playerName").textContent = PlayerName;
+        document.getElementById("playerScore").textContent = PlayerScore;
+        //Operators
+        const actionBtn = document.getElementById("actionBtn");
+        actionBtn.addEventListener("click", function(){
+            //Arithmetic Operator (+)
+            PlayerScore = PlayerScore + 2;
+            //String Concatenation (+)
+            let message = "Welcome back, " + PlayerName + "! Current Score" 
+            + PlayerScore;
+            console.log(message);
+
+            //Updated Elements
+            document.getElementById("playerScore").textContent = PlayerScore;
+        });
+ 
+    </script>
+</body>

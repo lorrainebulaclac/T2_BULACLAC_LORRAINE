@@ -1,0 +1,14 @@
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.exe
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.deps.json
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.runtimeconfig.json
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.dll
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.pdb
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.AssemblyInfoInputs.cache
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.AssemblyInfo.cs
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.csproj.CoreCompileInputs.cache
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.dll
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\obj\Debug\net9.0\refint\MyConsoleApp.dll
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.pdb
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.genruntimeconfig.cache
+\\win-9u77nfs6td3\folder redirection\ihub19\My Documents\T2_BULACLAC_LORRAINE\MyConsoleApp\obj\Debug\net9.0\ref\MyConsoleApp.dll

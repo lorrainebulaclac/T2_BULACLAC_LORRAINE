@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <H1>Simple Calculator</H1>
+
+        <div>
+        <input type="text" id="first-Input"> 
+        <select name="operator" id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" id="second-Input">
+
+        <p>Result: <span id="result"></span></p>
+    </div>
+
+    <button onclick="calculate()">Compute</button>
+
+    <script>
+        const firstInput = document.getElementById('first-Input');
+        const secondInput = document.getElementById('second-Input');
+        const operatorInput = document.getElementById('operator');
+        const resultDisplay = document.getElementById('result');
+
+        function addNumbers(a, b){
+            return a + b;
+        }
+
+        function subtractNumbers(a, b){
+            return a - b;
+        }
+
+        function multiplyNumbers(a, b){
+            return a * b;
+        }
+
+        function divideNumbers(a, b){
+            if (b === 0) {
+                return resultDisplay.textContent = "Cannot be divisible by 0";
+            }
+            return a / b;
+        }
+
+        function calculate() {
+            let first = Number(firstInput.value);
+            let second = Number(secondInput.value);
+            let operator = operatorInput.value;
+            let result;
+            console.log(operator);
+            switch(operator) {
+                case "+": result = addNumbers(first, second);
+                break;
+
+                case "-": result = subtractNumbers(first, second);
+                break;
+
+                case "*": result = multiplyNumbers(first, second);
+                break;
+
+                case "/": result = divideNumbers(first, second);
+                break;
+            }
+
+            resultDisplay.textContent = result;
+
+        }
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Task 01: Multiple-choice Quiz</title>
+
+    <style>
+        *{
+            background-color: rgb(255, 255, 255);
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button{
+            padding: 10px;
+            border-radius: 8px;
+            font-size: .8rem;
+
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript Quiz</h1>
+    <p>1. What does HTML stands for</p>
+    <p id="q1"></p>
+
+    <button onclick="document.getElementById('q1').innerHTML = 'Correct!'.fontcolor(color = 'green')">Hyper Text Markup Language</button>
+    <button onclick="document.getElementById('q1').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">High Tech Modern Language</button>
+    <button onclick="document.getElementById('q1').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Hyper Transfer Markup Language</button>
+    <button onclick="document.getElementById('q1').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Hyperlink Text Management Language</button>
+
+    <hr>
+
+    <p>2. What does the term "IDE" stand for in programming?</p>
+    <p id="q2"></p>
+
+    <button onclick="document.getElementById('q2').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Intelligent Debugging Engine</button>
+    <button onclick="document.getElementById('q2').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Internet Development Editor</button>
+    <button onclick="document.getElementById('q2').innerHTML = 'Correct!'.fontcolor(color = 'green')">Integrated Development Environment</button>
+    <button onclick="document.getElementById('q2').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Interactive Design Engine</button>
+
+    <hr>
+
+    <p>3. A loop that never ends is referred to as a(n)_________.</p>
+    <p id="q3"></p>
+
+    <button onclick="document.getElementById('q3').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">While loop</button>
+    <button onclick="document.getElementById('q3').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Recursive loop</button>
+    <button onclick="document.getElementById('q3').innerHTML = 'Correct!'.fontcolor(color = 'green')">Infinite loop</button>
+    <button onclick="document.getElementById('q3').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">For loop</button>
+
+    <hr>
+
+    <p>4. _______ is the process of finding errors and fixing them within a program.</p>
+    <p id="q4"></p>
+
+    <button onclick="document.getElementById('q4').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Compiling</button>
+    <button onclick="document.getElementById('q4').innerHTML = 'Correct!'.fontcolor(color = 'green')">Debugging</button>
+    <button onclick="document.getElementById('q4').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Executing</button>
+    <button onclick="document.getElementById('q4').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Scanning</button>
+
+    <hr>
+
+    <p>5. What does the 'continue' statement do in a loop?</p>
+    <p id="q5"></p>
+
+    <button onclick="document.getElementById('q5').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Terminates the loop</button>
+    <button onclick="document.getElementById('q5').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Pauses the loop execution</button>
+    <button onclick="document.getElementById('q5').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">None of the above</button>
+    <button onclick="document.getElementById('q5').innerHTML = 'Correct!'.fontcolor(color = 'green')">Skips the current iteration and proceeds to the next one</button>
+
+    <hr>
+
+    <p>6. In object-oriented programming, what does the concept of inheritance allow you to do?</p>
+    <p id="q6"></p>
+
+    <button onclick="document.getElementById('q6').innerHTML = 'Correct!'.fontcolor(color = 'green')">Create new classes based on existing classes</button>
+    <button onclick="document.getElementById('q6').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Delete existing classes</button>
+    <button onclick="document.getElementById('q6').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Modify existing classes"
+    <button onclick="document.getElementById('q6').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">
+    Encrypt data within a class</button>
+
+    <hr>
+
+    <p>7. Which language is primarily used for web development?</p>
+    <p id="q7"></p>
+
+    <button onclick="document.getElementById('q7').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">C++</button>
+    <button onclick="document.getElementById('q7').innerHTML = 'Correct!'.fontcolor(color = 'green')">JavaScript</button>
+    <button onclick="document.getElementById('q7').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Python</button>
+    <button onclick="document.getElementById('q7').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Java</button>
+
+    <hr>
+
+    <p>8. What is the purpose of a function in programming?</p>
+    <p id="q8"></p>
+
+    <button onclick="document.getElementById('q8').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">To perform a specific task</button>
+    <button onclick="document.getElementById('q8').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">To declare a variable</button>
+    <button onclick="document.getElementById('q8').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">To create a loop</button>
+    <button onclick="document.getElementById('q8').innerHTML = 'Correct!'.fontcolor(color = 'green')">To organize code into reusable blocks</button>
+
+    <hr>
+
+    <p>9. Which of the following is not a feature of functional programming?</p>
+    <p id="q9"></p>
+
+    <button onclick="document.getElementById('q9').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Immutability</button>
+    <button onclick="document.getElementById('q9').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">First-class functions</button>
+    <button onclick="document.getElementById('q9').innerHTML = 'Correct!'.fontcolor(color = 'green')">Side effects</button>
+    <button onclick="document.getElementById('q9').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Recursion</button>
+
+    <hr>
+
+    <p>10. Which design pattern ensures a class has only one instance and provides a global point of access to it?</p>
+    <p id="q10"></p>
+
+    <button onclick="document.getElementById('q10').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Factory Pattern</button>
+    <button onclick="document.getElementById('q10').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Observer Pattern</button>
+    <button onclick="document.getElementById('q10').innerHTML = 'Incorrect!'.fontcolor(color = 'red')">Decorator Pattern</button>
+    <button onclick="document.getElementById('q10').innerHTML = 'Correct!'.fontcolor(color = 'green')">Singleton Pattern</button>
+
+
+</body>
+</html>
